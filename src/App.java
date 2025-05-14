@@ -129,7 +129,7 @@ public class App {
                     System.out.println("\nElevada a la n es igual a:");
                     SimpleList originalList = matrizList;
                     for (i = 0; i<n-1; i++){
-                        matrizList = Methods.multiplicarMatriz(matrizList, originalList, 3);
+                        matrizList = Methods.multiplicarMatriz(matrizList, originalList, m);
                     }
                     matrizList.traversalMatriz();
                     break;
